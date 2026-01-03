@@ -1,0 +1,10 @@
+.header{
+            background-color : orange;
+            color: red;
+        }
+        .footer{
+            background-color: white;
+        }
+        body{
+            margin : 0;
+        }
