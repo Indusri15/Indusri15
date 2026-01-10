@@ -1,10 +1,40 @@
 .header{
+         display: flex;
+         justify-content: space-between;
             background-color : orange;
-            color: red;
+            color: white;
         }
-        .footer{
-            background-color: white;
-        }
-        body{
-            margin : 0;
-        }
+.footer{
+            background-color: silver;
+     }
+ .container{
+            margin : 10px;
+    }
+ .menu{
+            display: flex;
+            gap: 20px;
+            list-style: none;
+            margin: 5px;
+           
+    }
+ .menu li a{
+         text-decoration: none;
+         color: white;
+     }
+     #home{
+        margin: 10px;
+     }
+     #services{
+        border:1px solid black;
+        margin:10px;
+        background-color:beige
+       ;
+     }
+     .box{
+        text-align: center;
+        margin:5px;
+        padding: 5px;
+        border:1px solid black;
+     
+
+     }
